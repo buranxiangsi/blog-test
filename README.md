@@ -4,18 +4,6 @@
 
 以下是学习进度：
 ### [git入门&命令]()  ————2021/2/25
-```
-#提交到本地仓库
-git add 路径 
-git commit -m/-v
-# 提交到远程仓库
-git remote add origin git@XXXX
-git branch  -M  main
-git push -u origin main 
-# 下载
-git clone  git@XXXXX
-
-```
 
 ### HTTP入门笔记
-1. [HTTP入门笔记1](https://github.com/buranxiangsi/blog-test/blob/main/HTTP%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01.md))
+1. [HTTP入门笔记1](https://github.com/buranxiangsi/blog-test/blob/main/HTTP%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01.md)
