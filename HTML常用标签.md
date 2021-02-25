@@ -1,26 +1,26 @@
 # HTML 常用标签
 ## a
-* 作用: 链接（内部，外部，邮箱/电话)
-* 属性
-  1. href 包含url
-    1. 网址
-      1. https://google.com
-      2. http://google.com
-      3. //google.com
-    2. 路径
-      1. /a/b/c & a/b/c
-      2. index.html & ./index.html 
-    3. 伪协议
-      1. javascript:代码;作用于点击后没有动作的标签
-      2. mailto:邮箱
-      3. tel:手机号
-  2. target 在何处显示连接的资源
-    4. _self 当前页加载
-    5. _blank 新窗口打开
-    6. _parent 加载到当前框架的父框架
-    7. _top  加载响应进入顶层
-  3. download  下载
-  4. rel=noopener  指定目标对象到链接对象的关系
+1. 作用: 链接（内部，外部，邮箱/电话)
+2. 属性
+   1. href 包含url
+      1. 网址
+          1. https://google.com
+          2. http://google.com
+          3. //google.com
+      2. 路径
+         1. /a/b/c & a/b/c
+         2. index.html & ./index.html 
+      3.  伪协议
+          1. javascript:代码;作用于点击后没有动作的标签
+          2. mailto:邮箱
+          3. tel:手机号
+  1. target 在何处显示连接的资源
+       1. _self 当前页加载
+       2. _blank 新窗口打开
+       3. _parent 加载到当前框架的父框架
+       4. _top  加载响应进入顶层
+2. download  下载
+3. 3. rel=noopener  指定目标对象到链接对象的关系
 ## img
 1. 作用：发出get请求，展示图片
 2. 属性
