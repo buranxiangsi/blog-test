@@ -8,4 +8,8 @@
 ### HTML
 1. [HTML入门笔记1](https://github.com/buranxiangsi/blog-test/blob/main/HTML%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01.md) ————2021/2/25
 2. [HTML常用标签](https://github.com/buranxiangsi/blog-test/blob/main/HTML%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE.md)————2021/2/25
-3. [html实践](https://github.com/buranxiangsi/html)
+3. [html实践](https://github.com/buranxiangsi/html)————2021/2/25
+   
+### [CSS]()
+1. [盒模型](https://github.com/buranxiangsi/blog-test/blob/main/CSS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)————2021/2/26
+
