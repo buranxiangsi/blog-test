@@ -47,15 +47,13 @@ css语法2：@语法
 1. html标签都是盒子，一层一层包裹。
 2. 由margin，border，padding，content组成
 3. box-sizing：
-   1. content-box 标准盒模型，W3C标准
+   1. content-box 标准盒模型，W3C标准 <b>width=content</b>
     ```html
     <div class="content-box">content box</div>
     <div class="border-box">content box</div>
     
     ```
     ```CSS
-    
-    /*width=content*/
 
     .content-box{
         box-sizing: content-box;
@@ -66,10 +64,9 @@ css语法2：@语法
         margin: 15px;
     }
     ```
-   1. border-box IE盒模型，<b>推荐使用</b>
+   1. border-box IE盒模型,也叫怪异盒模型。<b>width=content+padding+border</b>推荐使用。
     ```css
-   /*width=content+padding+border*/
-
+   
    .border-box{
        box-sizing: border-box;
        width: 100px;
