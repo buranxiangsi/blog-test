@@ -30,6 +30,7 @@ css语法2：@语法
 2. 有bug时在上下行添加border
    ```css
    border: 1px solid red;
+   /*border 占用宽度，可改成不占宽度的outline，用法一样。*/
    ```
    
 # 文档流
