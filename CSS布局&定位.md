@@ -75,8 +75,7 @@
 
 
 
-<ul>
-<li>[flex游戏](https://flexboxfroggy.com/#zh-cn)</li>
-<li>[grid游戏](https://cssgridgarden.com/#zh-cn)</li>
-<li>[c层叠上下文](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)</li>
-</ul>
+
+[flex游戏](https://flexboxfroggy.com/#zh-cn)
+[grid游戏](https://cssgridgarden.com/#zh-cn)
+[层叠上下文](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
