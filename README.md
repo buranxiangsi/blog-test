@@ -10,7 +10,7 @@
 2. [HTML常用标签](https://github.com/buranxiangsi/blog-test/blob/main/HTML%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE.md)————2021/2/25
 3. [html实践](https://github.com/buranxiangsi/html)————2021/2/25
    
-### [CSS]()
+### CSS 重点
 1. [盒模型](https://github.com/buranxiangsi/blog-test/blob/main/CSS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)————2021/2/26
 2. [布局/定位](https://github.com/buranxiangsi/blog-test/blob/main/CSS%E5%B8%83%E5%B1%80%26%E5%AE%9A%E4%BD%8D.md)————2021/2/26
 
