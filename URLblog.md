@@ -1,10 +1,16 @@
 # URL 包含哪几部分，每部分分别有什么作用
 
 URL = 协议+域名/IP+端口号+路径+查询字符串+锚点
+```
+https://www.baidu.com/s?wd=hello&rsv_spt=1#5
+```
+协议<code>https://</code><br>
+域名<code>www.baidu.com</code><br>
+路径<code>/s</code><br>
+查询参数<code>?wd=hello&rsv_spt=1</code><br>
+瞄点<code>#5</code><br>
 
-https:// www.baidu.com /s  ?wd=hello&rsv_spt=1 #5
-<br>
-协议          域名     路径    查询参数          瞄点
+                             
 
 ## IP的作用是什么，ping 命令怎么用
 
