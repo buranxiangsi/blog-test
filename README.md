@@ -15,3 +15,6 @@
 2. [布局/定位](https://github.com/buranxiangsi/blog-test/blob/main/CSS%E5%B8%83%E5%B1%80%26%E5%AE%9A%E4%BD%8D.md)————2021/2/27
 3. [CSS动画及总结](https://github.com/buranxiangsi/blog-test/blob/main/CSS%E5%8A%A8%E7%94%BB.md)————2021/2/28
 
+### HTTP
+1. [url](https://github.com/buranxiangsi/blog-test/blob/main/URLblog.md)————2021/2/28
+
