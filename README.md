@@ -20,5 +20,5 @@
 2. [HTTP全解](https://github.com/buranxiangsi/blog-test/blob/main/HTTP.md)————2021/2/28
 
 ### js
-1. [js历史](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript%E7%9A%84%E8%AF%9E%E7%94%9F.md)
+1. [js历史](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript%E7%9A%84%E8%AF%9E%E7%94%9F.md)————2021/3/01
 
