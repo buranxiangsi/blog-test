@@ -24,4 +24,5 @@
 2. [内存与JS原型](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8EJS%E4%B8%96%E7%95%8C.md)————2021/3/01
 3. [jsCanvas](https://github.com/buranxiangsi/JavaScriptCanvsa)————2021/3/02
 4. [js语法和表达式](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/js%E5%9F%BA%E7%A1%80.md)————2021/3/02
+5. [js数据类型](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)2021/3/02
 
