@@ -22,4 +22,5 @@
 ### js
 1. [js历史](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/JavaScript%E7%9A%84%E8%AF%9E%E7%94%9F.md)————2021/3/01
 2. [内存与JS原型](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/%E5%86%85%E5%AD%98%E5%9B%BE%E4%B8%8EJS%E4%B8%96%E7%95%8C.md)————2021/3/01
+3. [jsCanvas](https://github.com/buranxiangsi/JavaScriptCanvsa)————2021/3/02
 
