@@ -26,4 +26,5 @@
 4. [js语法和表达式](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/js%E5%9F%BA%E7%A1%80.md)————2021/3/02
 5. [js数据类型](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)——2021/3/02
 6. [js数据类型：Object](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B9%8B%E5%AF%B9%E8%B1%A1Object.md)——2021/3/03
+7.  [js对象分类](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/js%E5%AF%B9%E8%B1%A1%E5%88%86%E7%B1%BB.md)——2021/3/03
 
