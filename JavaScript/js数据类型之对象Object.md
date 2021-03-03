@@ -111,4 +111,38 @@ obj.key
    //使用对象的hasOwnProperty方法判断是否为对象自身的属性
    ```
 
+   ##  6. 使用Object.defineProperty、Object.defineProperties定义JavaScript对象属性
    
+   ### 1. ` Object.defineProperty()`定义/修改属性
+   
+   `Object.defineProperty()`用于定义或修改对象的一个属性，其语法结构如下：
+
+​            
+
+```js
+Object.defineProperty(obj, prop, descriptor)
+// obj: Object 定义属性的对象
+// prop － {String}，要定义或修改的属性名
+// descriptor － {Object}，要定义或修改的属性的描述，即：数据属性和访问器属性
+```
+
+
+
+###      2. `Object.defineProperties()`定义/修改多个属性
+
+`Object.defineProperty()`可定义可修改对象的一个属性，当定义或修改对象的多个属性时，使用这个方法会比较麻烦。这时可以使用`Object.defineProperties()`方法来统一设置或修改多个对象属性。该方法语法结构如下：
+
+```js
+Object.defineProperties(obj, props)
+// obj － {Object}，要定义或修改属性的对象
+// prop － {String}，要定义或修改的属性名及属性的特性
+```
+
+
+
+- [Object.defineProperty()----MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+
+- [Object.defineProperties()----MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)
+
+  
+
