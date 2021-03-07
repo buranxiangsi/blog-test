@@ -32,3 +32,5 @@
 10.   [太极 项目](https://github.com/buranxiangsi/cv)——2021/3/05
 11.   [总结](https://github.com/buranxiangsi/blog-test/blob/main/JavaScript/js%E6%80%BB%E7%BB%93.md)——2021/3/06
 
+### 算法
+1. [算法](https://github.com/buranxiangsi/blog-test/blob/main/%E7%AE%97%E6%B3%95/1.md)
