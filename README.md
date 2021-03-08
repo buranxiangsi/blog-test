@@ -34,3 +34,4 @@
 
 ### 算法
 1. [算法](https://github.com/buranxiangsi/blog-test/blob/main/%E7%AE%97%E6%B3%95/1.md)
+2. [数据结构](https://github.com/buranxiangsi/data-structure)
