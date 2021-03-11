@@ -1,6 +1,6 @@
 # blog-test
 ## 自我介绍
-我叫罗玲玉，这是我新建的blog，我在2021年2月加入饥人谷，开始学习前端，此bolg主要用于记录学习进度。
+我叫罗玲玉，这是我新建的blog，我在2021年2月加入饥人谷，开始学习前端，此blog主要用于记录学习进度。
 
 以下是学习进度：
 ### [git入门&命令](https://github.com/buranxiangsi/blog-test/blob/main/git.md)  ————2021/2/25
