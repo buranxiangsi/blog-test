@@ -46,3 +46,6 @@
 2021/3/12--2021/3/13
 1. [准备](https://github.com/buranxiangsi/blog-test/blob/main/%E5%AF%BC%E8%88%AA/%E4%B8%80%E9%94%AE%E5%8F%91%E5%B8%83.md)
 2. [项目](https://github.com/buranxiangsi/Nav-demo)
+
+### 前后分离
+1. [AXAJ原理](https://github.com/buranxiangsi/blog-test/blob/main/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/AJAX.md)
