@@ -2,7 +2,7 @@
 
 
 
-#### AXA使用XMLHttpRequest对象与服务器通信，就是使用JS发送和接收数据。
+#### AJAX使用XMLHttpRequest对象与服务器通信，就是使用JS发送和接收数据。
 
 - AJAX是浏览器上的功能
 - window上的XMLHttpRequest构造函数
@@ -69,7 +69,7 @@
 
   - 函数的返回值处于
 
-  - [setTimeout]()
+  - [setTimeout](https://github.com/buranxiangsi/blog-test/blob/main/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/setTimeout.md)
   - AJAX
   - AddEventlistener
 
