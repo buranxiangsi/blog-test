@@ -83,6 +83,8 @@ $ yarn eject
 $ yarn add --dev svg-sprite-loader@4.2.2
 $ yarn add --dev svgo-loader@2.2.1
 $ yarn add --dev @types/webpack-env@1.15.1
+$ yarn add classnames@2.2.6
+$ yarn add --dev @types/classnames@2.2.6
 ```
 
 
