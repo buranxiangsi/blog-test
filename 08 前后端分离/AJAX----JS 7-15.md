@@ -144,5 +144,68 @@
 
 - 读不到状态码，script标签，不支持cors
 
+- 静态服务器  Static Server
+
+- 处理错误：`try(){}catch(){}`
+
+- 动态服务器  
+
+- 区别
+
+- 是否请求了数据库，请求数据库是动态服务器
+
+- ```js
+  //读取数据
+  fs.readFileSync('./xx.json').toString()
+  JSON.parse() //反序列化，得到数组
+  
+  //存储数据
+  JSON.stringify  //序列化，得到字符串
+  fs.weiteFileSync('./xx.json', data)
+
+- 用户注册
+
+- 前端
+
+- 写一个form，让用户填name  password
+
+- 监听submit事件
+
+- 发送post请求 ，数据位于请求体
+
+- 后端
+
+- 接收post请求
+
+- 获取请求体中的name和password
+
+- 读取数据，查看是否有匹配的name和password——用户登录
+
+- 匹配，**标记**(Cookie)为已登录——用户登录
+
+- 存储数据
+
+- Cookie 
+
+-  服务器下发给浏览器的一段字符，相当于公园门票
+
+- 浏览器必须保存这个Cookie，
+
+- 之后发起相同二级域名请求时，浏览器必须附上Cookie
+
+- set-Cookie  响应头  MDN
+
+- 防篡改用户id
+
+- 加密 安全漏洞，加密后的内容可无限期使用，  解决 JWT
+
+- 把信息隐藏在服务器——会话 session
+
+- 隐藏在session里，加一个随机id，把id发给浏览器，后端读取session[id]
+
+- session  保存用户信息
+
+- 有时效性
+
 
 
