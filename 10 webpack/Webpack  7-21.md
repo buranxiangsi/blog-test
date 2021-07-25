@@ -54,5 +54,27 @@
 
 - [使用两个webpack config 文件](https://github.com/survivejs/webpack-merge)
 
+- loder  vs  plugin
+
+- 区别
+
+- loader  加载器  loader文件
+
+- plugin   插件      加强功能
+
+- [引入scss](https://webpack.js.org/loaders/sass-loader/#getting-started)   [github 引入sass](https://github.com/webpack-contrib/sass-loader)
+
+- node-scss 过时 用dart-sass
+
+- 引入Less  Stylus
+
+- webpack  引入 图片
+
+- webpack import()  懒加载
+
+- 动态 import()  返回一个promise
+
+- 模板引擎过时，模板字符串，vue自带，react有jsx
+
 - 
 
