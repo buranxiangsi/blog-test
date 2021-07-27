@@ -113,5 +113,112 @@
 
 - 传入类，在类前加new（执行constructor），获取一个组件对象，调用对象的render方法，获取返回值
 
-- 
+- props  外部数据
+
+- 类读取，this.props.xxx
+
+- 函数读取 props.xxx
+
+- state   内部数据  初始化，读，写
+
+- 类读取：this.state   this.setState
+
+- 函数读取：useState 返回数组，第一线读，第二项写
+
+- 函数组件也通过setX更新UI，类组件也是
+
+- 函数组件没有this，一律用参数和变量，类组件有this
+
+- 事件绑定
+
+- ```jsx
+  // this参数
+  class Son extends React.Component{//函数在对象上
+      addN =()=> this.setState({n:this.state.n + 1})//等价于下面的写法
+      consrtuctor(){
+          this.addN = ()=> this.setState({n: this.state.n + 1})
+      }
+  }
+  
+  addN(){  //函数在原型上   等价于下面的写法
+      this.setState({n: this.state.n + 1})
+  }
+  addN: function(){
+      this.setState({n: this.state.n + 1})
+  }
+  ```
+
+- 类组件
+
+- class组件
+
+- ```jsx
+  class B extends React.Component{//extends  继承
+      constructor(props){
+          //constructor 构造函数  初始化class创建的对象的特殊方法，从父组件传入props
+          super(props)
+          //super  调用父类的构造方法，把props放到this上，this.props外部数据对象的地址
+          this.state = {//初始化state 内部数据
+              user:{name:'React', age: 18}
+          }
+      }
+      render(){
+          return (
+          	<div>Hi</div>
+          )
+      }
+  }
+  //props读取，通过this.props.xxx读取
+  //props写  ，不写props，外部数据由外部更改
+  
+  //state 读取  this.state.xxx.yyy.zzz
+  //state 写    this.setState(newState,fn)  this.setState((state,props)=>newState,fn)
+  ```
+
+- props
+
+- 接收外部数据
+
+- 接收外部函数
+
+- state
+
+- 生命周期 `create`  `state`  `mount`  `update`  `unmount`
+
+- `constructor()`  - 初始化state
+
+- ```jsx
+  //初始化props
+  //初始化state ，但此时不能调用setState
+  //用来写 bind this
+  onClick=()=>{}
+  constructor(){/*...*/}
+  //可不写
+  ```
+
+- `shouldComponentUpdate()` - return false 阻止更新 
+
+- return true  不阻止UI更新
+
+- return false  阻止UI更新
+
+- 作用：它允许我们手动判断是否进行组件更新，根据应用场景灵活设置返回值，避免不必要的更新
+
+- React.PureComponent 自动判断数据是否更改，来阻止或更新UI
+
+- `render()`  - 创建虚拟DOM
+
+- 展示视图
+
+- 只能由一个根元素
+
+- 两个根元素需要用React.Fragment包起来，或者`<></>`
+
+- `componentDidMount()` - 组件已出现在页面
+
+- `componentDidUpdate()`  - 组件已更新
+
+- `componentWillUnmount()`  - 组件将死
+
+  
 
