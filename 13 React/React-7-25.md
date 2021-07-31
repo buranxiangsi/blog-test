@@ -216,9 +216,72 @@
 
 - `componentDidMount()` - 组件已出现在页面
 
+- 在元素插入页面后执行代码
+
+- 可以发起加载数据的AJAX请求
+
+- 首次渲染执行此钩子
+
 - `componentDidUpdate()`  - 组件已更新
 
+- UI更新执行代码
+
+- 发起AJAX请求，用于更新数据
+
+- flase 不触发
+
 - `componentWillUnmount()`  - 组件将死
+
+- 移出页面然后被销毁时执行的代码
+
+- 函数组件
+
+- ```jsx
+  const Hello = (props) =>{
+      return <div>{props.message}</div>
+  }
+  ```
+  
+- 函数组件没有state，生命周期
+
+- React v16.8.0  Hooks  API  
+
+- Hooks API  useState  解决没有state的问题
+
+- Hooks API  useEffect 解决没有生命周期的问题 Effect  副作用
+
+- 模拟 componentDidMount
+
+- ```js
+  useEffect(()=>{console.log('第一次渲染')}, [])
+  ```
+  
+- 模拟 componentDidUpdate
+
+- ```js
+  useEffect(()=>{console.log('任意属性变更')})
+  useEffect(()=>{console.log('变了')})
+  ```
+
+- 模拟 componentWillUnmount
+
+- ```jsx
+  useEffect(()=>{
+      console.log('第一次渲染')
+      return ()=>{
+          console.log('组件要死了')
+      }      
+  })
+  ```
+
+- 自定义Hooks
+
+- ```jsx
+  ```
+
+- 
+
+- 
 
   
 
