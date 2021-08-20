@@ -276,12 +276,95 @@
 
 - 自定义Hooks
 
+- Hooks 原理解析
+
+- [useState](https://juejin.cn/post/6844903704437456909#heading-3)
+
+- useState读取state最新值
+
+- setN  把数据存入state
+
+- useState不能使用if，多个useState执行顺序需一致
+
+- useRef
+
+- 引用div ， 引用任意数据
+
+- 数据贯穿始终
+
+- useContext  初始化上下文（上下文 => 变量）
+
+- 不仅贯穿始终，还能贯穿不同组件
+
+- **Hooks  详解**
+
+- useState  状态
+
 - ```jsx
+  //使用状态
+  const [n, setN] = React.useState(0)
+  const [user, setUser] = React.useState({name:'f'})
+  //不可以局部更新，属性不会自动合并，需手动合并
+  //obj地址需变更，不然UI不会更新
+  
+  //useState | setN  接受函数--->减少多余的计算，优先使用函数。
   ```
+  
+- useEffect 副作用
 
-- 
+- ```jsx
+  //副作用：对环境的改变，每次在render之后执行
+  //用途，可以代替以下三个生命周期
+  componentDidMount    //[空数组是第一次执行，只执行一次]作第二个参数
+  componentDidupdate   //可指定依赖
+  componentWillUnmount // 通过return
+  //多个useEffect 会按照出现次序执行
+  ```
+  
+- useContext 上下文
 
-- 
+- ```jsx
+  // 全局变量是全局的上下文，上下文是局部的全局变量
+  
+  C = createCointext(initial) //1创建上下文
+  <C.provider>                //2圈定作用域
+  useContext(C)               //3在作用域使用上下文
+  
+  //注意：不是响应式的
+  ```
+  
+- Redux | useReducer
+
+- ```jsx
+  // useReducer API  践行Flux|Redux思想
+  创建初始值 initalState
+  创建所有操作 reducer(state, action)
+  传给useReducer 得到读和写API
+  调用写({type:'操作类型'})
+  
+  //useReducer 是 useState 的复杂版
+  
+  
+  //Redux (复杂) 状态管理工具 (它是一个架构)
+  设计思想： 
+  Web 应用是一个状态机，视图与状态一一对应。
+  所有的状态，保存在一个对象里
+  
+  //useReducer 不能代替 Redux 需要
+  数据集中在store对象                        store：储存数据的地方
+  将所有操作集中在reducer                    reducer
+  创建一个Context                           Context
+  创建对数据的读写API                        useReducer
+  第4步的内容放到第三步的Context              <Context.Provider value={ {value1,value2} }>
+  用Context.Provider将Context提供给所有组件  <Context.Provider/>
+  各个组件用useContext获取读写API             const {state, useState} = useContext(Context)
+  ```
+  
+- useMemo  记忆
+
+- useRef  引用
+
+- Hook 自定义
 
   
 
