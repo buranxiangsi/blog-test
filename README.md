@@ -5,7 +5,7 @@
 以下是学习进度：
 ##### [git入门&命令](https://github.com/buranxiangsi/blog-test/blob/main/git.md)
 
-##### [HTML](https://github.com/buranxiangsi/blog-test/tree/main/1%20HTML)
+##### [HTML](https://github.com/buranxiangsi/blog-test/tree/main/01%20HTML)
 
 ##### [CSS](https://github.com/buranxiangsi/blog-test/tree/main/2%20CSS) 
 
