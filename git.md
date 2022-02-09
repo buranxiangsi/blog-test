@@ -44,5 +44,9 @@ git branch -D new branch
 # 删除远程分支
 git push origin --delete new branch
 
-
+# 更改远程地址
+git remote  rm origin
+git remote add origin url
+git push /or
+git push -u origin  main -f
 ```
