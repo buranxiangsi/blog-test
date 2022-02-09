@@ -41,6 +41,8 @@ git push
 
 # 删除分支
 git branch -D new branch
+# 删除远程分支
+git push origin --delete new branch
 
 
 ```
