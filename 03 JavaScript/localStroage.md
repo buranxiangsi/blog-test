@@ -1,0 +1,13 @@
+- localStrogat
+  - 长期保存
+  - 键值对以字符串形式存储
+  - `localStorage.setItem('s','sss')` 增加
+  - `localStorage.getItem()` 读取 
+  - ` localStorage.removeItem()` 移除
+  - `localStorage.clear() `移除所有
+- sessionStrorage
+  - 页面会话结束，数据被清除
+  - 页面会话在浏览器打开期间一直保持，并且重新加载或恢复页面仍会保持原来的页面会话
+  - 在新标签或窗口打开一个页面时会复制顶级浏览会话的上下文作为新会话的上下文
+  - 打开多个相同的 URL 的 Tabs 页面，会创建各自的 `sessionStorage`。
+  - 关闭对应浏览器标签或窗口，会清除对应的 `sessionStorage`。 
