@@ -56,4 +56,14 @@ git reset --hard main@{} //然后撤回
 git pull --rebase
 修复 bug:main|REBASE 1/4 
 git pull --abort
-```
+
+
+# 删除远程分支
+git push origin --delete new branch
+
+# 更改远程地址
+git remote  rm origin
+git remote add origin url
+git push /or
+git push -u origin  main -f
+

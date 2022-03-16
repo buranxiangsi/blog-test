@@ -29,3 +29,4 @@
 参考
 1. [js历史](https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2)
 2. [js诞生](http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html)
+
