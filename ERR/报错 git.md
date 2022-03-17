@@ -41,3 +41,12 @@ git.config
 	proxy = 
 ```
 
+# err2
+Git报错解决：fatal: unable to access: OpenSSL SSL_read: Connection was reset, errno 10054
+
+解决办法: https://www.cnblogs.com/lvhuayan/p/14538106.html
+
+
+git config --global http.sslVerify "false" 
+上一个命令来自连接办法，但git push 并不生效，改成下面的命令，上传成功
+git push -u origin main
